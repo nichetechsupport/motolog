@@ -1,0 +1,14 @@
+title: MotoLog
+description: バイク整備と燃費管理のための iOS アプリ
+author: NicheTech Support
+email: nichetechsupport@gmail.com
+baseurl: "/motolog"
+url: "https://nichetechsupport.github.io"
+theme: jekyll-theme-minimal
+lang: ja
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
