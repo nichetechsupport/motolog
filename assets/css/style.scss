@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// MotoLog brand color (teal)
+$motolog-accent: #2DD4BF;
+$motolog-accent-hover: #14B8A6;
+
+a {
+  color: $motolog-accent;
+
+  &:hover {
+    color: $motolog-accent-hover;
+  }
+
+  &:visited {
+    color: $motolog-accent;
+  }
+}
+
+// Table header accent (subtle teal tint)
+table th {
+  border-bottom: 2px solid $motolog-accent;
+}
